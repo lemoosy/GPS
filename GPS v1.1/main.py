@@ -20,7 +20,7 @@ def get_paths_between(departure, arrival, cities = list()):
         if distance != 0 and not city in cities:
             get_paths_between(city, arrival, cities + [departure])
 
-def get_distance():
+def get_distances():
 
     for path in paths:
 
@@ -47,5 +47,5 @@ def print_best_distance():
 
 
 get_paths_between(3, 5)
-get_distance()
+get_distances()
 print_best_distance()

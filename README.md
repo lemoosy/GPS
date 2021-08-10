@@ -1,2 +1,2 @@
 # GPS
-more informations tomorrow...
+Calculate the shortest distance between 2 points
